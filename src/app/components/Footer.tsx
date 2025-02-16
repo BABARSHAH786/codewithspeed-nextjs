@@ -187,7 +187,10 @@ export default function Footer() {
             <li><Link href="/" className="hover:text-black">Home</Link></li>
             <li><Link href="/governor-sindh-it-course" className="hover:text-black">Governor Sindh IT Course</Link></li>
             <li><Link href="/jdc-it-city" className="hover:text-black">JDC IT City/Bano Qabil</Link></li>
-            <li><Link href="/jobs" className="hover:text-black">Jobs</Link></li>
+            <li><Link href="/jobs" className="hover:text-black">Jobs</Link></li>  
+                      <li><Link href="./sitemap.xml" className="hover:text-black">Sitemap</Link></li>
+
+
           </ul>
         </div>
 
@@ -230,7 +233,7 @@ export default function Footer() {
           <Link href="/terms-conditions" className="text-white hover:text-black">Terms & Conditions</Link>
           <Link href="/privacy-policy" className="text-white hover:text-black">Privacy Policy</Link>
           <Link href="/contact" className="text-white hover:text-black">Contact</Link>
-          <Link href="/about" className="text-white hover:text-black">About</Link>
+          <Link href="/about-us" className="text-white hover:text-black">About</Link>
 
         </div>
       </div>

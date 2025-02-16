@@ -1,5 +1,5 @@
 import { FaBagShopping } from "react-icons/fa6"
-import Image from "next/image"
+// import Image from "next/image"
 
 export default function CheckOut(){
     return (
@@ -122,13 +122,15 @@ export default function CheckOut(){
              <div className="w-[320px] h-[474px]  ">
                 <h2 className="font-bold text-[15px] leading-[23px]">Arrives Mon, 27 Mar - Wed, 12 Apr</h2>
                 <div className="w-[320px] h-[208px]  flex">
-                <Image
+                {/* <img
           className="w-[208px] h-[208px] "
           src={"/Frame (3).png"}
           alt="shoes"
           width={208}
           height={208}
-        />
+
+        /> */}
+        {/* all record */}
         <div className="ml-2">
         <h2>Nike Dri-FIT ADV TechKnit Ultra Men&apos;s Short-Sleeve Running Top</h2>
         <p className="text-[#8D8D8D] ">
@@ -144,13 +146,13 @@ export default function CheckOut(){
 
              {/* prd 2 */}
                 <div className="w-[320px] h-[208px]  flex mt-5">
-                <Image
+                {/* <img
           className="w-[208px] h-[208px] "
           src={"/Frame (4).png"}
           alt="shoes"
           width={208}
           height={208}
-        />
+        /> */}
         <div className="ml-2">
         <h2>Nike Air Max 97 SE Men&apos;s Shoes</h2>
         <p className="text-[#8D8D8D] ">

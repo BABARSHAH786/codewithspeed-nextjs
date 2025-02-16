@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 export default function HomePage() {
   return (
@@ -18,7 +18,7 @@ export default function HomePage() {
         <p className="text-lg text-gray-600 text-center mt-2">
           Get all the information about artificial intelligence and web development.
         </p>
-        <Image src="/img4.jpeg" alt="AI Image" width={500} height={500} className="w-full h-auto mt-4" />
+        {/* <img src="/img4.jpeg" alt="AI Image" width={500} height={500} className="w-full h-auto mt-4" /> */}
       </section>
      
           

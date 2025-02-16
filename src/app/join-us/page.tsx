@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 // import Link from "next/link";
@@ -13,13 +13,13 @@ export default function JoinUs() {
             <div className="">
                 <div className="max-ss:ml-9 max-md:ml-9   w-[380px] h-[833px] ml-[530px] ">
                     <div className="w-[324px] h-[180px] mt-7 left-[28px] relative ">
-                    <Image
+                    {/* <img
       className="max-ss:hidden ml-12 max-md:hidden "
       src={"/Vector8.png"}
       alt=""
       width={78.47}
       height={78.47}
-    />
+    /> */}
     <p className="w-[231px] mt-4 text-[18px] font-bold flex justify-between leading-[26px] ">BECOME A NIKE MEMBER</p>
 
     <p className="w-[280px] mt-4 text-[14px] font-bold flex justify-between leading-[26px] text-[#8D8D8D]  ">Create your Nike Member profile and get first access to the very best of Nike products, inspiration and community.</p>

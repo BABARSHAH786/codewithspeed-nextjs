@@ -40,6 +40,9 @@ export default function NavBar() {
           <li className="p-3 md:p-0 hover:text-yellow-200">
             <Link href="/jobs">Jobs</Link>
           </li>
+          <li className="p-3 md:p-0 hover:text-yellow-200">
+            <Link href="/News">News</Link>
+          </li>
         
         </ul>
       </div>
